@@ -31,7 +31,6 @@
             android:text="@{book.title}"
             android:textSize="16sp"
             android:textStyle="bold"
-            android:textColor="#FF000000"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/book_image"
             app:layout_constraintTop_toTopOf="parent" />
