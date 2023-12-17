@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_search">
+
+    <action
+        android:id="@+id/action_to_book_detail"
+        app:destination="@id/fragment_book_detail" />
+
+    <fragment
+        android:id="@+id/fragment_search"
+        android:name="com.gmlwo22.search.SearchFragment"
+        android:label="SearchFragment" />
+
+    <fragment
+        android:id="@+id/fragment_book_detail"
+        android:name="com.gmlwo22.detailbook.BookDetailFragment"
+        android:label="BookDetailFragment" />
+
+</navigation>
